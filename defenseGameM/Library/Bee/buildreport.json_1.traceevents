@@ -1,0 +1,555 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1697005713111232, "dur": 1877780, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697005713111561, "dur": 25700, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697005713137263, "dur": 142711, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697005713280013, "dur": 821517, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697005714101532, "dur": 873836, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697005714975370, "dur": 13642, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697005715014136, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1697005713625250, "dur": 455983, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697005713626532, "dur": 73193, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697005714050633, "dur": 4872, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697005714055509, "dur": 25703, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697005714056232, "dur": 13281, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697005714086428, "dur": 1290, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697005714085566, "dur": 2210, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697005715014204, "dur": 217, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1697005714171458, "dur":1856, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714173322, "dur":141, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1697005714173532, "dur":46, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1697005714173581, "dur":573, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1697005714174246, "dur":786, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714175032, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714962742, "dur":110, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714962852, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714962864, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714962867, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714962876, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714962879, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714962886, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714962889, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714962899, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714962913, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714962943, "dur":2527, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1697005714174974, "dur":79, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714175053, "dur":3197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714178251, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1697005714178294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714181102, "dur":39371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1697005714220522, "dur":3981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1697005714224507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714224808, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1697005714226760, "dur":8379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1697005714235142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714235149, "dur":2413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1697005714237599, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1697005714237623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714238472, "dur":19506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1697005714258004, "dur":1399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1697005714259406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714259413, "dur":1869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1697005714261308, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1697005714261355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714261361, "dur":8621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1697005714270012, "dur":119422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714389439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714389900, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714392094, "dur":903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM.exe" }}
+,{ "pid":12345, "tid":1, "ts":1697005714392999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714393004, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM.exe" }}
+,{ "pid":12345, "tid":1, "ts":1697005714395033, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1697005714395055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714395574, "dur":133728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1697005714529330, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714529816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714530165, "dur":42646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714572838, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714573281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714573483, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714575036, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714575479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714575486, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714577227, "dur":715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714577946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714577952, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714579518, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714579928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714579934, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714581551, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714582101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714582108, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714583782, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714584225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714584231, "dur":3005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714587266, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714587955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714587962, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714589672, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714590169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714590175, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714591783, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714592012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714592018, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714593681, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714594139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714594146, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714595945, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714596387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714596393, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714597998, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714598407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714598413, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714600057, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714600447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714600452, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714604220, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714604899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714604907, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714606662, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714607120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714607127, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714608861, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714609333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714609338, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714611083, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714611475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714611481, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714613112, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714613305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714613310, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714615225, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714615461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714615468, "dur":36956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714652459, "dur":1218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714653682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714653722, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714655858, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714656210, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714656220, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714658297, "dur":1634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714659935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714659942, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714661495, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714661700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714661705, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714663301, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714663503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714663508, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714664948, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714665253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714665258, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714666816, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714667032, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714667043, "dur":4119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714671190, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714671699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714671706, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714673833, "dur":1688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714675525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714675533, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714677278, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714677744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714677750, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714679287, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714679708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714679715, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714681292, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714681701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714681707, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714683231, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714683436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714683441, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714686059, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714686614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714686622, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714688381, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714688615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714688622, "dur":2641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714691288, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714691708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714691714, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714693360, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714693634, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714693640, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714695477, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714695908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714695914, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714697492, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714697951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714697957, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714699613, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714699810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714699816, "dur":3837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714703683, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714703929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714703935, "dur":2686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714706648, "dur":537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714707187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714707194, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714709007, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714709407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714709412, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714710910, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714711278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714711283, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714712911, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714713110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714713116, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714714680, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714715116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714715122, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714716794, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714717293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714717300, "dur":3209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714720543, "dur":1172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714721720, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714721738, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714724084, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714724570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714724577, "dur":4068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714728670, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714728976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714729008, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714731178, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714731432, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714731437, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714733113, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714733328, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714733338, "dur":3698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714737093, "dur":1451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714738548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714738555, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714741311, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714741582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714741587, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714743176, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714743384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714743390, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714745383, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714745614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714745619, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714747379, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714747618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714747624, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714749478, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714749653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714749658, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714751683, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714752074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714752088, "dur":3175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714755285, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714755475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714755480, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714757126, "dur":677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714757805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714757810, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714759940, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714760127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714760132, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714761601, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714762038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714762044, "dur":1682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714763747, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714764139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714764145, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714765725, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714765922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714765927, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714767695, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714768186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714768193, "dur":5300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714773518, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714773722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714773728, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714775879, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714776104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714776111, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714777966, "dur":2457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714780425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714780431, "dur":2732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714783188, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714783639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714783645, "dur":3836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714787507, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714787722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714787728, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714789498, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714789754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714789759, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714791414, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714791661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714791666, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714793509, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714794007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714794012, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714796039, "dur":2017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714798059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714798065, "dur":5200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714803288, "dur":1054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714804404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714804413, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714807150, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714807809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714807815, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714810400, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714810584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714810590, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714812524, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714812994, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714813879, "dur":8837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697005714822743, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1697005714822761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714822767, "dur":4734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1697005714827529, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1697005714827757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714827763, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1697005714829399, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1697005714829416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714829420, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1697005714831880, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1697005714831898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697005714831904, "dur":2570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1697005714834502, "dur":128239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714174952, "dur":96, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714175048, "dur":3271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714178320, "dur":29405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1697005714207728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714207741, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1697005714210196, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1697005714210219, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714210225, "dur":36087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1697005714246348, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1697005714246368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714246503, "dur":16536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1697005714263063, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1697005714263081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714263086, "dur":23658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1697005714286791, "dur":509341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697005714796135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714796285, "dur":6666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697005714803088, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697005714803411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714803417, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697005714805276, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697005714805618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714805625, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697005714807572, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697005714807816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714807820, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697005714810334, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697005714810689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714810755, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697005714812704, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1697005714812894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714813381, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1697005714816192, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1697005714816212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714816377, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1697005714819329, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1697005714819352, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714819358, "dur":4222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1697005714823604, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1697005714823622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714823626, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1697005714825315, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1697005714825333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714825340, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1697005714827818, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1697005714828007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714828011, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1697005714829782, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1697005714829844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714829849, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1697005714832089, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1697005714832112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697005714832116, "dur":4626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1697005714836770, "dur":125959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697005714175005, "dur":51, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697005714175056, "dur":3186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697005714178242, "dur":29205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1697005714207451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697005714208250, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1697005714210162, "dur":14626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1697005714224791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697005714224797, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1697005714226733, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1697005714226752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697005714226758, "dur":13570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1697005714240354, "dur":53924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1697005714294283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697005714294291, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1697005714296168, "dur":651208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697005714947379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697005714947385, "dur":15298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697005714962713, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1697005714962714, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714175046, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714175047, "dur":3150, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714178223, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1697005714178224, "dur":14126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714192363, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1697005714192369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714193136, "dur":3544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1697005714196682, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1697005714196712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714197201, "dur":21127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1697005714218359, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1697005714218422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714220208, "dur":14957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1697005714235194, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1697005714235213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714235219, "dur":34632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1697005714269895, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1697005714269934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714269941, "dur":87174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1697005714357145, "dur":329833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1697005714686981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714686986, "dur":2621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1697005714689638, "dur":509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714690150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714690158, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714691784, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714692138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714692143, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714693843, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714694104, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714694109, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714695846, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714696127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714696132, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714697723, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714698098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714698103, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714699686, "dur":509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714700223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714700228, "dur":3599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714703852, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714704158, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714704189, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714706919, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714707318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714707323, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714708994, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714709202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714709208, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714710787, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714711200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714711206, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714712903, "dur":464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714713370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714713374, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714714868, "dur":1085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714715956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714715961, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714718250, "dur":910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714719164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714719172, "dur":4066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714723272, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714723551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714723557, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714726296, "dur":777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714727076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714727082, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714729113, "dur":687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714729804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714729810, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714731958, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714732429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714732434, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714734839, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714735271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714735278, "dur":5363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714740668, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714740934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714740941, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714742746, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714743185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714743190, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714745388, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714745592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714745599, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714747420, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714747626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714747631, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714749405, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714749738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714749743, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714751601, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714751911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714751918, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714755151, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714755408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714755414, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714757116, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714757308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714757313, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714758877, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714759071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714759077, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714760688, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714761068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714761073, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714763124, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714763574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714763580, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714765363, "dur":609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714765974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714765979, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714770165, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714770789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714770796, "dur":3413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714774232, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714774465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714774470, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714777442, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714777730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714777736, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714779319, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714779519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714779525, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714781210, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714781571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714781606, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714783312, "dur":863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714784178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714784184, "dur":5145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714789355, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714789645, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714789650, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714791385, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714791585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714791616, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714793455, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714793671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714793677, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714795611, "dur":2269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714797884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714797892, "dur":9076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714806994, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714807457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714807464, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714809925, "dur":3612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714813540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714813545, "dur":6356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697005714819926, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1697005714819944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714819948, "dur":8706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1697005714828677, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1697005714828694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714828699, "dur":2408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1697005714831131, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1697005714831149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714831154, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1697005714833887, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1697005714834085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697005714834090, "dur":4048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/marco/Desktop/DefenseGameM/defenseGameM_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1697005714838163, "dur":124565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697005714967613, "dur":2713, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1697005715014469, "dur": 870, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697005715014124, "dur": 1239, "ph": "X", "name": "Write chrome-trace events", "args": {} },
